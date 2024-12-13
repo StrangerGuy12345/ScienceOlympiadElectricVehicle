@@ -1,18 +1,18 @@
 # ScienceOlympiadElectricVehicle
 This repository gives the code files for programming your Electric Vehicle for the Science Olympiad utilizing the Arduino platform.
 # Requirments
-You will need an Arduino or ESP32 (I used the [Arduino Uno R4 Wifi](https://shorturl.at/gxt6B) due to the extra storage and faster download and upload rate), this [Motor with Encoder](https://shorturl.at/rNqjS), this [Motor Driver](https://shorturl.at/nulTf), these [Breadboard Wires](https://shorturl.at/aqRki) , this [Breadboard](https://shorturl.at/JkIDs), a [Battery Holder](https://shorturl.at/r1iqW) that holds 8 [1.5V Batteries](https://shorturl.at/qhw5x), a [Switch](https://shorturl.at/7QrU3), and this [LCD](https://shorturl.at/NttRC). You will also need to have [Arduino IDE](https://www.arduino.cc/en/software) installed with the board manager for the model of your microcontroller installed. You need to be using MacOS😎, Linux🐧, or Windows🤮.
+You will need an Arduino or ESP32 (I used the [Arduino Uno R4 Wifi](https://shorturl.at/gxt6B) due to the extra storage and faster download and upload rate), this [Motor with Encoder](https://shorturl.at/rNqjS), this [Motor Driver](https://shorturl.at/nulTf), these [Breadboard Wires](https://shorturl.at/aqRki) , this [Breadboard](https://shorturl.at/JkIDs), a [Battery Holder](https://shorturl.at/r1iqW) that holds 8 [1.5V Batteries](https://shorturl.at/qhw5x), a [Switch](https://shorturl.at/7QrU3), and this [LCD](https://shorturl.at/NttRC). You will also need to have [Arduino IDE](https://www.arduino.cc/en/software) installed with the board manager for the model of your microcontroller installed. You need to be using MacOS😎, Linux🐧, or Windows🤮. 
 # Downloading the Code
 To download the program go to your termial and paste the following:
 ```
 git clone https://github.com/StrangerGuy12345/ScienceOlympiadElectricVehicle.git ~/Documents/Arduino/ElectricVehicle
 ```
 # Libraries
-**HD44780**: To download the HD44780 library go to your termial and paste the following:
+[**HD44780**](https://github.com/duinoWitchery/hd44780.git): To download the HD44780 library go to your termial and paste the following:
 ```
 git clone https://github.com/duinoWitchery/hd44780.git ~/Documents/Arduino/libraries/hd44780-master
 ```
-**Wire**: Comes pre-installed with board manager. Included if for some reason you don't have it.
+[**Wire**](https://github.com/arduino/ArduinoCore-avr.git): Comes pre-installed with board manager. Included if for some reason you don't have it.
 ```
 git clone https://github.com/arduino/ArduinoCore-avr.git ~/Documents/Arduino/libraries/ArduinoCore-avr
 ```
@@ -31,7 +31,7 @@ git clone https://github.com/arduino/ArduinoCore-avr.git ~/Documents/Arduino/lib
    ```
 2. Double Click on Meter_to_Pulses_Calc.java and run it if you have java installed or on your Java IDE. If you don't have a Java installed or and IDE for Java then use this online [IDE](https://www.online-java.com/). Cick on the folder button and go to your documents folder double click on Arduino, then double click on ElectricVehicle and then single click on Meter_to_Pulses_Calc.java and press Open. Then you will be taken back from Finder to the IDE. Press Run, then the scanner will give you the prompt "Enter the distance in meters:", enter the distance you want the encoder to travel in a positive integer, you can have decimals. It will then give you the pulses for the distance. Go back to the ElectricVehicle folder and double click on EV_Final_code.ino. It will then take you to Arduino IDE. Go to line 19 enter the pulses that you got from the Java IDE (The code is set to 7 meters by defualt). Then take the cable of that fits into your microcontroller and plug it in to your computer and select the port in the IDE. Click on the check mark to compile and then press the arrow button after it has finished compiling. After it has finished uploading you can unplug the cable from your microcontroller and test to see if its working.
 # Troubleshooting
-**Make sure you downloaded the files properly and meet all the requirments**
+**Make sure you downloaded the files properly and meet all the requirments.** If you don't have access to a Terminal for any reason you can download the repositories manually.
 
 
 
