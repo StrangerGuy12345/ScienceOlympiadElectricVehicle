@@ -23,6 +23,7 @@ git clone https://github.com/duinoWitchery/hd44780.git ~/Documents/Arduino/libra
 git clone https://github.com/duinoWitchery/hd44780.git ~/Documents/PlatformIO/Projects/ElectricVehicle/lib/hd44780-master
 ```
 [**Wire**](https://github.com/arduino/ArduinoCore-avr.git): Comes pre-installed with board manager. Included if for some reason you don't have it.
+
 **(Arduino)**
 ```
 git clone https://github.com/arduino/ArduinoCore-avr.git ~/Documents/Arduino/libraries/ArduinoCore-avr
