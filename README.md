@@ -13,12 +13,22 @@ git clone https://github.com/StrangerGuy12345/ScienceOlympiadElectricVehicle.git
 ```
 # Libraries
 [**HD44780**](https://github.com/duinoWitchery/hd44780.git): To download the HD44780 library go to your termial and paste the following:
+**(Arduino)**
 ```
 git clone https://github.com/duinoWitchery/hd44780.git ~/Documents/Arduino/libraries/hd44780-master
 ```
+**(PlatformIO)**
+```
+git clone https://github.com/duinoWitchery/hd44780.git ~/Documents/PlatformIO/Projects/ElectricVehicle/lib/hd44780-master
+```
 [**Wire**](https://github.com/arduino/ArduinoCore-avr.git): Comes pre-installed with board manager. Included if for some reason you don't have it.
+**(Arduino)**
 ```
 git clone https://github.com/arduino/ArduinoCore-avr.git ~/Documents/Arduino/libraries/ArduinoCore-avr
+```
+**(PlatformIO)**
+```
+git clone https://github.com/duinoWitchery/hd44780.git ~/Documents/PlatformIO/Projects/ElectricVehicle/lib/ArduinoCore-avr
 ```
 # Getting Started
 1. Wire the yellow wire of the encoder to pin 2 and the white wire to pin 3 on your microcontroller.
@@ -39,9 +49,9 @@ git clone https://github.com/arduino/ArduinoCore-avr.git ~/Documents/Arduino/lib
    ```
    open Documents/PlatformIO/Projects/ElectricVehicle/
    ```
-3. Double Click on Meter_to_Pulses_Calc.java and run it if you have java installed or on your Java IDE. If you don't have a Java installed or and IDE for Java then use this online [IDE](https://www.online-java.com/). Cick on the folder button and go to your documents folder double click on Arduino, then double click on ElectricVehicle and then single click on Meter_to_Pulses_Calc.java and press Open. Then you will be taken back from Finder to the IDE. Press Run, then the scanner will give you the prompt "Enter the distance in meters:", enter the distance you want the encoder to travel in a positive integer, you can have decimals. It will then give you the pulses for the distance. Go back to the ElectricVehicle folder and double click on EV_Final_code.ino. It will then take you to Arduino IDE. Go to line 19 enter the pulses that you got from the Java IDE (The code is set to 7 meters by defualt). Then take the cable of that fits into your microcontroller and plug it in to your computer and select the port in the IDE. Click on the check mark to compile and then press the arrow button after it has finished compiling. After it has finished uploading you can unplug the cable from your microcontroller and test to see if its working.
+3. Double Click on Meter_to_Pulses_Calc.java and run it if you have java installed or on your Java IDE. If you don't have a Java installed or and IDE for Java then use this online [IDE](https://www.online-java.com/). Cick on the folder button and go to your documents folder double click on Arduino, then double click on ElectricVehicle and then single click on Meter_to_Pulses_Calc.java and press Open. Then you will be taken back from Finder to the IDE. Press Run, then the scanner will give you the prompt "Enter the distance in meters:", enter the distance you want the encoder to travel in a positive integer, you can have decimals. It will then give you the pulses for the distance. Go back to the ElectricVehicle folder and double click on EV_Final_code.ino. It will then take you to Arduino IDE. Go to line 19 enter the pulses that you got from the Java IDE (The code is set to 7 meters by defualt). Then take the cable of that fits into your microcontroller and plug it in to your computer and select the port in the IDE. Click on the check mark to compile and then press the arrow button after it has finished compiling (For PlatformIO you click on the small arrow next to the run button and select upload). After it has finished uploading you can unplug the cable from your microcontroller and test to see if its working.
 # Troubleshooting
-**Make sure you downloaded the files properly and meet all the requirments.** If you don't have access to a Terminal for any reason you can download the repositories manually.
+**Make sure you downloaded the files properly and meet all the requirments and you downloaded everything in order of the README.** If you don't have access to a Terminal for any reason you can download the repositories manually.
 
 
 
