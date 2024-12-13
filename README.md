@@ -13,6 +13,7 @@ git clone https://github.com/StrangerGuy12345/ScienceOlympiadElectricVehicle.git
 ```
 # Libraries
 [**HD44780**](https://github.com/duinoWitchery/hd44780.git): To download the HD44780 library go to your termial and paste the following:
+
 **(Arduino)**
 ```
 git clone https://github.com/duinoWitchery/hd44780.git ~/Documents/Arduino/libraries/hd44780-master
@@ -41,6 +42,7 @@ git clone https://github.com/duinoWitchery/hd44780.git ~/Documents/PlatformIO/Pr
 7. Conncet the breadboard wire of the switch to the 12V supply on the Motor Driver (Pins of screw terminals listed under the motor driver), connect the black wire of battery to GND of Motor Driver, connect one end of a breadboard wire to the 5V supply on the Motor driver and the other end next to the red line on the breadboard, connect one end of another breadboard wire to the GND of the Motor Driver (More than one wire can be fit into a section of the screw terminal as long as you tighten it properly) and connect the other end to the blue side of the breadboard.
 # Programming
 1. To open the program go to your termial and paste the following:
+
    **(Arduino)**
    ```
    open Documents/Arduino/ElectricVehicle/
