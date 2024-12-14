@@ -3,16 +3,17 @@ This repository gives the code files for programming your Electric Vehicle for t
 # Requirments
 You will need an Arduino or ESP32 (I used the [Arduino Uno R4 Wifi](https://shorturl.at/gxt6B) due to the extra storage and faster download and upload rate), this [Motor with Encoder](https://shorturl.at/rNqjS), this [Motor Driver](https://shorturl.at/nulTf), these [Breadboard Wires](https://shorturl.at/aqRki) , this [Breadboard](https://shorturl.at/JkIDs), a [Battery Holder](https://shorturl.at/r1iqW) that holds 8 [1.5V Batteries](https://shorturl.at/qhw5x), a [Switch](https://shorturl.at/7QrU3), and this [LCD](https://shorturl.at/NttRC). You will also need to have [Arduino IDE](https://www.arduino.cc/en/software) or [PlatformIO on Visual Studio Code](https://platformio.org/install/ide?install=vscode) installed with the board manager for the model of your microcontroller installed. Your operating system needs to be MacOS😎, Linux🐧, or Windows🤮. 
 # Downloading the Code (Arduino IDE)
-To download the program go to your termial and paste the following:
+To clone the repository, go to your termial and paste the following:
 ```
 git clone https://github.com/StrangerGuy12345/ScienceOlympiadElectricVehicle.git ~/Documents/Arduino/ElectricVehicle
 ```
 # Downloading the Code (PlatformIO)
+To clone the repository, go to your termial and paste the following:
 ```
 git clone https://github.com/StrangerGuy12345/ScienceOlympiadElectricVehicle.git ~/Documents/PlatformIO/Projects/ElectricVehicle
 ```
-# Libraries
-[**HD44780**](https://github.com/duinoWitchery/hd44780.git): To download the HD44780 library go to your termial and paste the following:
+# Libraries 
+[**HD44780**](https://github.com/duinoWitchery/hd44780.git): To clone the HD44780 library go to your termial and paste the following:
 
 **(Arduino)**
 ```
