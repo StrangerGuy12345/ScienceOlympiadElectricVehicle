@@ -31,7 +31,7 @@ git clone https://github.com/arduino/ArduinoCore-avr.git ~/Documents/Arduino/lib
 ```
 **(PlatformIO)**
 ```
-git clone https://github.com/duinoWitchery/hd44780.git ~/Documents/PlatformIO/Projects/ElectricVehicle/lib/ArduinoCore-avr
+git clone https://github.com/arduino/ArduinoCore-avr.git ~/Documents/PlatformIO/Projects/ElectricVehicle/lib/ArduinoCore-avr
 ```
 # Getting Started
 1. Wire the yellow wire of the encoder to pin 2 and the white wire to pin 3 on your microcontroller.
